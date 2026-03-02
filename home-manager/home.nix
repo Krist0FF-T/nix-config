@@ -16,7 +16,36 @@
 
   # Add stuff for your user as you see fit:
   # programs.neovim.enable = true;
-  home.packages = with pkgs; [ uv ];
+  home.packages = with pkgs; [
+    godot
+    blender
+    kdePackages.kdenlive
+    krita
+
+    # media
+    zathura
+    mpv
+    vimiv-qt
+    libreoffice-fresh
+    mpc ncmpcpp rmpc # mpd stuff (new to it)
+
+    # cool cli shit (ordered by usefulness)
+    yt-dlp ani-cli # entertainment
+    python313Packages.ipython
+    uv
+    libqalculate
+    microfetch
+    eza
+    cowsay
+    cava
+
+    # # games
+    prismlauncher
+    luanti # (formerly minetest)
+    # factorio-demo
+    # veloren mindustry supertuxkart supertux (from git) the-powder-toy (little 2d sandbox)
+    # ? 0ad, hedgewars, warzone-2100, freeciv
+  ];
 
   # Enable home-manager and git
   programs.home-manager.enable = true;

@@ -19,34 +19,7 @@
     description = "kristóf";
     extraGroups = [ "networkmanager" "wheel" ];
     initialPassword = "password";
-    packages = with pkgs; [
-      godot
-      blender
-      kdePackages.kdenlive
-      krita
-
-      # media
-      zathura
-      mpv
-      vimiv-qt
-      libreoffice-fresh
-      mpc ncmpcpp rmpc # mpd stuff (new to it)
-
-      # cool cli shit (ordered by usefulness)
-      libqalculate
-      ani-cli yt-dlp # entertainment
-      microfetch
-      eza
-      cowsay
-      cava
-
-      # # games
-      prismlauncher
-      luanti # (formerly minetest)
-      # factorio-demo
-      # veloren mindustry supertuxkart supertux (from git) the-powder-toy (little 2d sandbox)
-      # ? 0ad, hedgewars, warzone-2100, freeciv
-    ];
+    # packages = with pkgs; [ ];
   };
 
   programs.hyprland.enable = true;
