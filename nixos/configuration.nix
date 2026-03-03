@@ -66,6 +66,8 @@
     adwaita-icon-theme
     brightnessctl
     matugen
+    libnotify # for notify-send
+    dunst
 
     # nvim
     wl-clipboard

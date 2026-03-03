@@ -17,10 +17,12 @@
   # Add stuff for your user as you see fit:
   # programs.neovim.enable = true;
   home.packages = with pkgs; [
+    # creative
     godot
     blender
     kdePackages.kdenlive
     krita
+    audacity
 
     # media
     zathura
@@ -33,11 +35,19 @@
     yt-dlp ani-cli # entertainment
     python313Packages.ipython
     uv
+    cloc
     libqalculate
     microfetch
     eza
     cowsay
     cava
+
+    # other
+    pavucontrol
+    gnome-clocks
+    libnotify
+    dunst
+    wireguard-tools
 
     # # games
     prismlauncher
