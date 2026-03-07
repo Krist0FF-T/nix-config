@@ -188,6 +188,21 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
+  i18n.inputMethod = {
+    type = "fcitx5";
+    enable = true;
+    fcitx5.addons = with pkgs; [
+      # Japanese, Chinese, Russian and more
+      fcitx5-mozc
+      fcitx5-rime
+      fcitx5-m17n
+
+      # GTK and Qt app support
+      fcitx5-gtk
+      kdePackages.fcitx5-qt
+    ];
+  };
+
   programs.ssh.startAgent = true;
 
   # List services that you want to enable:
