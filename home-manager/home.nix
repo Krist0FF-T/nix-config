@@ -23,6 +23,7 @@
     kdePackages.kdenlive
     krita
     audacity
+    gimp
 
     # media
     zathura
@@ -48,6 +49,7 @@
     libnotify
     dunst
     wireguard-tools
+    protonvpn-gui
 
     # # games
     prismlauncher
