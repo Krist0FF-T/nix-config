@@ -66,7 +66,7 @@ in {
     # media
     zathura # pdf reader
     vimiv-qt # vim-like image viewer
-    libreoffice-fresh
+    libreoffice-stable
     playerctl # required by multimedia key bindings
     mpc
     rmpc
